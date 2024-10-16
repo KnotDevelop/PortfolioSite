@@ -1,0 +1,247 @@
+.about-section {
+    background-color: var(--color-dark2);
+    padding: 125px 0;
+}
+
+.about-info-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info-detail {
+    width: 50%;
+}
+
+.about-info-detail>h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-info-detail>h4>span {
+    color: var(--main-color);
+}
+
+.about-info-detail p {
+    letter-spacing: 1.5px;
+    color: var(--main-text-color-fade);
+}
+
+.about-info-vdo {
+    width: 448px;
+    height: 252px;
+    background-color: #DC3545;
+}
+
+.services-section {
+    background-color: var(--color-dark1);
+    padding: 125px 0;
+}
+
+.work-group-panel {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 34px;
+    row-gap: 34px;
+}
+
+#work-game {
+    grid-column: 1 / span 6;
+}
+
+#work-web {
+    grid-column: 7 / span6;
+}
+
+#work-app {
+    grid-column: 1 / span 6;
+}
+
+#work-music {
+    grid-column: 7 / span6;
+}
+
+.work-info {
+    display: flex;
+    gap: 34px;
+}
+
+.work-info .work-heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.work-info .work-detail {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main-text-color-fade);
+}
+
+.resume-section {
+    background-color: var(--color-dark2);
+    padding: 125px 0;
+}
+
+.resume-info-panel {
+    padding-bottom: 40px;
+}
+
+.resume-info-box-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 34px;
+    row-gap: 34px;
+}
+
+.resume-info-box {
+    display: inline-block;
+    background-color: var(--color-info-box);
+    border-radius: 10px;
+    padding: 20px 36px;
+}
+
+.resume-info-box>.year-box-info {
+    display: inline-block;
+    /* background-color: var(--color-danger); */
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin: 10px 0;
+    margin-right: 5px;
+}
+
+.resume-info-box>h4 {
+    font-weight: 500;
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.resume-info-box>.location-info {
+    color: var(--main-color);
+}
+
+.resume-info-box>.resume-info-detail {
+    color: var(--main-text-color-fade);
+}
+
+.resume-info-box>p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.portfolio-section {
+    background-color: var(--color-dark1);
+    padding: 125px 0;
+}
+
+.portfolio-list-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+
+.portfolio-list {
+    height: 302px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-list a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.portfolio-info {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 16px 36px;
+    opacity: 0;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.portfolio-list .portfolio-info:hover {
+    opacity: 1;
+}
+
+.portfolio-info p {
+    color: var(--main-text-color-fade);
+}
+
+.contact-section {
+    background-color: var(--color-dark2);
+    padding: 125px 0;
+}
+
+.icon-panel-contact {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-panel {
+    display: flex;
+}
+
+.contact-detail {
+    width: 33.33%;
+}
+
+.icon-panel-contact li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.send-note-form {
+    width: 66.66%;
+}
+
+.send-note-form input[type="text"] {
+    width: 49%;
+    height: 52px;
+    border: none;
+    background-color: var(--color-dark1);
+    border-radius: 5px;
+    padding: 24px;
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.send-note-form textarea {
+    width: 100%;
+    height: 187px;
+    border: none;
+    background-color: var(--color-dark1);
+    border-radius: 5px;
+    padding: 24px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+
+.send-note-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-note-form button {
+    align-self: center;
+}
